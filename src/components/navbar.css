@@ -1,0 +1,67 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 62px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 10;
+}
+.navbar_container {
+  width: 90%;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+.left_items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.left_items select {
+  height: 20px;
+  width: 100px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.edyoda_icon {
+  width: 158px;
+  height: 45px;
+  font-family: monospace;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 0.03em;
+  background: linear-gradient(90.72deg, #0096ff 42.18%, #0048ff 93.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.right_items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.right_items h1 {
+  font-size: 16px;
+  cursor: pointer;
+}
+.right_items button {
+  border: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  border-radius: 52px;
+  cursor: pointer;
+}
+.searchicon {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
